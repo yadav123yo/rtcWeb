@@ -46,6 +46,7 @@ export default function JoinCallForm({
               className="mt-1"
               variant="primary"
               type="submit"
+              bg="green"
               onClick={() => {
                 if (name !== "") {
                   onJoin({ name, room: roomName, mod: mod && !joinAsGuest });
